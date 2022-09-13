@@ -113,12 +113,5 @@ percent = Button(bton_frame,text='%',bg='white',fg='blue',font=('Arial bold',10)
 equals = Button(bton_frame,text='=',bg='green',fg='white',font=('Arial bold',10),width=8,height=4,command = lambda: equal()).grid(row=4,column=3)
 
 
-def anotherWindow():
-    global data
-    win1 = Tk()
-    win1.geometry('298x435')
 
-
-
-win.bind('<Return>', lambda event:anotherWindow())
 win.mainloop()
