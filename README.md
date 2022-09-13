@@ -1,2 +1,0 @@
-# tkinter-Calculator
-GUI Calculator
