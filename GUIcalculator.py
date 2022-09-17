@@ -9,9 +9,6 @@ win = Tk()
 win.title('Calculator')
 win.geometry('298x435')
 win['bg'] = 'grey'
-#icon = PhotoImage(file = "C:/Users/user/Documents/python_programs/heart.png.png")
-win.iconbitmap('heart.png')
-
 
 data = ''
 inputVal = StringVar()
